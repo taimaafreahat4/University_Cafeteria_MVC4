@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewData["Title"] = "Home";
+
+    string universityName = "Orange University";
+    string managerName = "Ahmad Ali";
+    int totalProducts = 5;
+}
+
+<h1>University Cafeteria</h1>
+
+<h2>Supply Management System</h2>
+
+<p>
+    Welcome to @universityName Cafeteria
+    Supply Management System.
+</p>
+
+<p>
+    This website helps display cafeteria products,
+    suppliers, and supply status.
+</p>
+
+<h3>Cafeteria Information</h3>
+
+<p>University: @universityName</p>
+<p>Manager: @managerName</p>
+<p>Total Products: @totalProducts</p>
+
+<a asp-controller="Cafeteria" asp-action="Products">
+    View Products
+</a>
+
+<br /><br />
+
+<a asp-controller="Cafeteria" asp-action="Suppliers">
+    View Suppliers
+</a>
+
+<br /><br />
+
+<a asp-controller="Cafeteria" asp-action="SupplyStatus">
+    View Supply Status
+</a>

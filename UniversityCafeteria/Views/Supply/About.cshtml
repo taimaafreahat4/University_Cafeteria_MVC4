@@ -1,0 +1,28 @@
+﻿
+<div class="container mt-4">
+
+    <h2>About Supply Management System</h2>
+
+    <p>
+        This system is used to manage supply requests
+        for the University Cafeteria.
+    </p>
+
+    
+    @if (TempData["OrderType"] != null)
+    {
+        <div class="alert alert-info mt-3">
+            Order Classification:
+            <strong>@TempData["OrderType"]</strong>
+        </div>
+    }
+
+
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-success mt-3">
+            @TempData["Message"]
+        </div>
+    }
+
+</div>

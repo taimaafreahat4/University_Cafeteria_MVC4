@@ -1,0 +1,75 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0" />
+
+    <title>University Cafeteria</title>
+
+    <link rel="stylesheet"
+          href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+
+                <a class="navbar-brand"
+                   href="@Url.Action("Index", "Supply")">
+                    University Cafeteria
+                </a>
+
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarMenu"
+                        aria-controls="navbarMenu"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse"
+                     id="navbarMenu">
+
+                    <div class="navbar-nav">
+
+
+                        <a class="nav-link"
+                           href="@Url.Action("Review", "SupplyRequest")">
+                            Review Draft
+                        </a>
+
+                        <a class="nav-link"
+                           href="@Url.Action("MyRequests", "SupplyRequest")">
+                            My Requests
+                        </a>
+
+                        <a class="nav-link"
+                           href="@Url.Action("About", "SupplyRequest")">
+                            About
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-4">
+        @RenderBody()
+    </main>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>

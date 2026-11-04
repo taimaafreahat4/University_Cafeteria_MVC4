@@ -1,0 +1,21 @@
+﻿
+<div class="container mt-4">
+
+    <h2>University Cafeteria</h2>
+
+    <p>Welcome to our Supply Management System.</p>
+
+    <h4 class="mt-4">Product Categories</h4>
+
+    <ul class="list-group mt-3">
+
+        @foreach (string category in ViewBag.Categories)
+        {
+            <li class="list-group-item">
+                @category
+            </li>
+        }
+
+    </ul>
+
+</div>
