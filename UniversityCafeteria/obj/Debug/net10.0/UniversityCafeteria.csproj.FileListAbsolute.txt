@@ -297,3 +297,15 @@ C:\Users\user\Desktop\University_Cafeteria_MVC3\UniversityCafeteria\obj\Debug\ne
 C:\Users\user\Desktop\University_Cafeteria_MVC3\UniversityCafeteria\obj\Debug\net10.0\UniversityCafeteria.genruntimeconfig.cache
 C:\Users\user\Desktop\University_Cafeteria_MVC3\UniversityCafeteria\obj\Debug\net10.0\ref\UniversityCafeteria.dll
 C:\Users\user\Desktop\University_Cafeteria_MVC3\UniversityCafeteria\obj\Debug\net10.0\Universi.3D4266FD.Up2Date
+C:\Users\user\Desktop\University_Cafeteria_MVC4\UniversityCafeteria\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\user\Desktop\University_Cafeteria_MVC4\UniversityCafeteria\obj\Debug\net10.0\UniversityCafeteria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\University_Cafeteria_MVC4\UniversityCafeteria\obj\Debug\net10.0\UniversityCafeteria.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\University_Cafeteria_MVC4\UniversityCafeteria\obj\Debug\net10.0\UniversityCafeteria.AssemblyInfo.cs
+C:\Users\user\Desktop\University_Cafeteria_MVC4\UniversityCafeteria\obj\Debug\net10.0\UniversityCafeteria.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\University_Cafeteria_MVC4\UniversityCafeteria\obj\Debug\net10.0\UniversityCafeteria.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\University_Cafeteria_MVC4\UniversityCafeteria\obj\Debug\net10.0\UniversityCafeteria.RazorAssemblyInfo.cache
+C:\Users\user\Desktop\University_Cafeteria_MVC4\UniversityCafeteria\obj\Debug\net10.0\UniversityCafeteria.RazorAssemblyInfo.cs
+C:\Users\user\Desktop\University_Cafeteria_MVC4\UniversityCafeteria\obj\Debug\net10.0\UniversityCafeteria.sourcelink.json
+C:\Users\user\Desktop\University_Cafeteria_MVC4\UniversityCafeteria\obj\Debug\net10.0\UniversityCafeteria.dll
+C:\Users\user\Desktop\University_Cafeteria_MVC4\UniversityCafeteria\obj\Debug\net10.0\refint\UniversityCafeteria.dll
+C:\Users\user\Desktop\University_Cafeteria_MVC4\UniversityCafeteria\obj\Debug\net10.0\UniversityCafeteria.pdb
